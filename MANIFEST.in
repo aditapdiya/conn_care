@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include conn_care *.css
+recursive-include conn_care *.csv
+recursive-include conn_care *.html
+recursive-include conn_care *.ico
+recursive-include conn_care *.js
+recursive-include conn_care *.json
+recursive-include conn_care *.md
+recursive-include conn_care *.png
+recursive-include conn_care *.py
+recursive-include conn_care *.svg
+recursive-include conn_care *.txt
+recursive-exclude conn_care *.pyc
